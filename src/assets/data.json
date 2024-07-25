@@ -1,0 +1,56 @@
+{
+    "projects": [
+        {
+            "title": "Book Mind",
+            "imgSrc": "/pf-1.png",
+            "description": "Responsive Website using Html, Css, Js",
+            "url": "https://coder-pink.github.io/Responsive-Book-Website/"
+        },
+        {
+            "title": "Jyoti Classes Website",
+            "imgSrc": "/JSC.png",
+            "description": "Coaching Website using the Mern Stack",
+            "url": "https://github.com/coder-pink/Jyoti-Classes-Website"
+        },
+        {
+            "title": "Chat Room",
+            "imgSrc": "/CR.png",
+            "description": "Chat Room App using Socket.io and node",
+            "url": "https://github.com/coder-pink/ChatRoom"
+        },
+        {
+            "title": "Github Profile Searcher",
+            "imgSrc": "/pf-2.png",
+            "description": "Github Profile Seracher using the Api functionlity",
+            "url": "https://github.com/coder-pink/Github-User-Profile-Search"
+        },
+        {
+            "title": "Json Formatter",
+            "imgSrc": "/pf-5.png",
+            "description": "A simple baisc json formatter in javascript.",
+            "url": "https://coder-pink.github.io/E-Json_formatter/"
+        },
+        {
+            "title": "D Mastery Website",
+            "imgSrc": "/ED.png",
+            "description": "Animated Modern Website using Next.js and Aceternity Ui",
+            "url": "https://github.com/coder-pink/D_Mastery"
+        }
+    ],
+    "experience": [
+        {
+          "title": "Software Developer",
+          "company": "Codespex Software Solution",
+          "duration": "1 year",
+          "description": "Worked on developing web applications using modern frameworks and technologies. Contributed to various projects and gained experience in full-stack development.",
+          "skills": ["JavaScript", "React", "Node.js", "TypeScript", "Tailwind CSS"]
+        },
+        {
+            "title": "Computer Instructor",
+            "company": "Param Computer Institute",
+            "duration": "8 months",
+            "description": "Taught computer science concepts and programming languages. Prepared instructional materials and provided hands-on training to students.",
+            "skills": ["Teaching", "Programming", "Curriculum Development", "JavaScript", "Python"]
+          }
+      ]
+}

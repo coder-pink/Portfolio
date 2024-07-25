@@ -1,0 +1,80 @@
+#about {
+    width: 100%;
+    min-height: 100vh;
+    padding: 4rem $p;
+    // background-color: $color1;
+    background-color:  $color4;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // border: 1px solid rgb(0, 0, 0);
+
+    >h2 {
+        font: 700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color6_1;
+        padding: 0.5rem;
+        margin: 1.4rem auto;
+    }
+
+    .about-section {
+        width: 100%;
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        align-items: center;
+        // border: 1px solid black;
+    }
+
+    .about-text,
+    .about-skills,
+    .about-hobbies {
+        margin-bottom: 2rem;
+        width: 100%;
+        text-align: center;
+
+        @media (min-width: 768px) {
+            width: 80%;
+        }
+    }
+
+    .about-text p {
+        margin-bottom: 1rem;
+        line-height: 1.6;
+    }
+
+    .about-skills h3,
+    .about-hobbies h3 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-skills ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            background-color: $color6;
+            box-shadow: 0 4px 8px $color6_2;
+            border: 1px solid $color1;
+            border-radius: 5px;
+            color: $color4;
+        }
+    }
+
+    .about-hobbies p {
+        margin-bottom: 1rem;
+    }
+}

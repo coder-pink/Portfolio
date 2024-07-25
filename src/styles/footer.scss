@@ -1,0 +1,83 @@
+.footer {
+    background-color: $color5;
+    // filter: drop-shadow(0 0 10px $color6) hue-rotate(5deg);
+    color: $color4;
+    padding: 2rem $p; 
+    text-align: center;
+  
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1rem;
+  
+      @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+      }
+  
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+  
+        @media (min-width: 768px) {
+          flex-direction: row;
+        }
+  
+        a {
+          color: $color4;
+          text-decoration: none;
+          font: 400 1rem $text2;
+          margin: 0.5rem 0;
+          transition: all 0.3s;
+  
+          &:hover {
+            // text-decoration: underline;
+            color: $color3;
+          }
+        }
+      }
+  
+      .footer-socials {
+        display: flex;
+        gap: 1rem;
+  
+        .footer-social-link {
+          color: $color4;
+          font-size: 1.5rem;
+  
+          &:hover {
+            color: $color3;
+          }
+        }
+      }
+    }
+  
+    .footer-copyright {
+      font-size: 0.9rem;
+      border-top: 1px solid $color4;
+      padding-top: 1rem;
+      width: 100%;
+    }
+  }
+  
+
+
+  .footer-scroll-to-top {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.scroll-to-top-icon {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.scroll-to-top-icon:hover {
+    color:  $color3; /* Change to your desired color */
+}

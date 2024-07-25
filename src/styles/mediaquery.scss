@@ -1,0 +1,185 @@
+@media screen and (max-width: 786px) {
+    nav {
+
+        >div,
+        >a {
+            display: none;
+        }
+    }
+
+    .navBtn {
+        display: block;
+    }
+
+    #home {
+        height: unset;
+        flex-direction: column-reverse;
+        margin-top: 0.8rem;
+
+        >section {
+            
+            &:first-of-type {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+
+                >div {
+                    border: none;
+                    padding-top: 1rem;
+
+                    >h1 {
+                        font: 900 2rem $text1;
+                    }
+
+                    >div {
+                        flex-direction: column;
+                        width: 100%;
+                        margin: 3rem 0;
+
+                        >a {
+                            &:first-of-type {
+                                padding: 0.5rem 2rem;                           
+                            }
+    
+                            &:last-of-type {
+                                font: 600 1rem $text2;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &:last-of-type {
+                border: none;
+            }
+        }
+
+        >svg {
+            font-size: 2rem;
+            bottom: 12%;
+        }
+    }
+
+
+    #about {
+        padding: 1.5rem $p;
+
+        >h2 {
+            font: 700 1.5rem $text2;
+        }
+        .about-text,
+        .about-skills,
+        .about-hobbies {
+            width: 100%;
+        }
+
+        .about-skills h3,
+        .about-hobbies h3 {
+            font-size: 1.3rem;
+        }
+
+        .about-text p,
+        .about-hobbies p{
+            font-size: 0.9rem;
+        }
+        .about-skills ul {
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                margin: 0.5rem 0;
+                font-size: 0.9rem;
+            }
+        }
+
+    }
+
+
+    #work {
+        padding: 1rem; // Reduce padding for smaller screens
+
+        h2 {
+            font-size: 2rem; // Adjust font size
+        }
+
+        .project-grid {
+            grid-template-columns: 1fr; // Single column layout
+        }
+
+        .project-card {
+            margin-bottom: 2rem; // Reduce margin
+            padding: 1rem; // Reduce padding
+
+            img {
+                height: 20rem; // Adjust height for smaller screens
+                max-width: 100%; // Ensure image fits within container
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 1.25rem; // Adjust font size
+            }
+
+            p {
+                font-size: 0.9rem; // Adjust font size
+            }
+
+            a {
+                padding: 0.5rem;
+                font-size: 0.9rem; // Adjust font size
+            }
+        }
+    }
+
+    #experience {
+        padding: 4rem $p;
+        >h2 {
+            font: 700 1.5rem $text2;
+        }
+        .experienceBox::after {
+            left: 31px;
+        }
+
+        .experienceItem {
+            width: 100%;
+            padding-left: 5rem;
+            padding-right: 2rem;
+            font-size: 0.8rem;
+            
+        }
+
+        .rightExp {
+            left: 0%;
+        }
+
+
+        .leftExp,
+        .rightExp {
+            &::after {
+                left: 15px;
+            }
+        }
+    }
+
+    #contact {
+        grid-template-columns: 1fr;
+
+        >section{
+            >form{
+
+                >h2 {
+                    font: 700 1.5rem $text2;
+                }
+    
+                >input,
+                >textarea,
+                >button {
+                    width: 90%;
+                }
+            }
+        }
+      
+
+    }
+}
