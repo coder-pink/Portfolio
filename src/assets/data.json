@@ -37,20 +37,39 @@
             "url": "https://github.com/coder-pink/D_Mastery"
         }
     ],
-    "experience": [
-        {
-          "title": "Software Developer",
-          "company": "Codespex Software Solution",
-          "duration": "1 year",
-          "description": "Worked on developing web applications using modern frameworks and technologies. Contributed to various projects and gained experience in full-stack development.",
-          "skills": ["JavaScript", "React", "Node.js", "TypeScript", "Tailwind CSS"]
-        },
-        {
-            "title": "Computer Instructor",
-            "company": "Param Computer Institute",
-            "duration": "8 months",
-            "description": "Taught computer science concepts and programming languages. Prepared instructional materials and provided hands-on training to students.",
-            "skills": ["Teaching", "Programming", "Curriculum Development", "JavaScript", "Python"]
-          }
-      ]
+
+
+        "experience": [
+  {
+    "title": "Full Stack Developer - Onsite",
+    "company": "Brilliko Multimedia",
+    "duration": "Dec 2025 – Present",
+    "description": "Created responsive, mobile-first websites optimized for performance and cross-browser compatibility. Built an inquiry management system using Next.js and Supabase with RBAC, branch isolation, and edge functions.",
+    "skills": ["Next.js", "Supabase", "RBAC", "JavaScript", "Web Performance"]
+  },
+  {
+    "title": "Freelance Full Stack Developer - Remote",
+    "company": "Business Boat India",
+    "duration": "Mar 2025 – Sept 2025",
+    "description": "Developed responsive websites and integrated real-time chat, payment gateways, and authentication systems. Collaborated with clients to deliver scalable and user-friendly solutions.",
+    "skills": ["React", "Redux", "Tailwind CSS", "Node.js", "Express", "MongoDB", "Stripe", "Socket.io", "JWT"]
+  },
+  {
+    "title": "Software Developer - Remote",
+    "company": "FutureBlink (OPC) Pvt Ltd",
+    "duration": "Dec 2024 – Jan 2025",
+    "description": "Worked on Shopify apps focusing on trust badges and shipping bar features. Improved UI and fixed critical bugs to enhance customer experience.",
+    "skills": ["Shopify API", "Liquid", "JavaScript", "React", "Node.js", "GraphQL", "Git"]
+  },
+  {
+    "title": "Software Developer",
+    "company": "Codespex Software Solution",
+    "duration": "1 year",
+    "description": "Worked on developing web applications using modern frameworks and technologies. Contributed to various projects and gained full-stack experience.",
+    "skills": ["JavaScript", "React", "Node.js", "TypeScript", "Tailwind CSS"]
+  }
+]
+
+
+
 }

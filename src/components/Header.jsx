@@ -44,7 +44,7 @@ const NavContent = ({ setMenuOpen }) => (
         Contact
       </a>
     </div>
-    <a href="\PinkySingh_Developer.pdf" download>     
+    <a href="\Pinky_Singh_FSD.pdf" download>     
       <button>Resume</button>
     </a>
   </>
